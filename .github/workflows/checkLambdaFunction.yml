@@ -22,4 +22,4 @@ jobs:
 
       - name: Run Tests
         run: |
-          python -m pytest test/# Run tests located in teh /test directory
+          python -m pytest test/ # Run tests located in the /test directory
