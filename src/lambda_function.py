@@ -1,10 +1,9 @@
 import json
-from extra_utils import get_lambda_message
+from src.extra_utils import get_lambda_message
 
 def lambda_handler(event, contact):
     return {
-        'status': 200,
-        'body': json.dumps('Hello from Lambda!'),
+        'statusCode': 200,
         'body': json.dumps(get_lambda_message())
     }
 
